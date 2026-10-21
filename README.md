@@ -1,9 +1,16 @@
-# LES'ART GROUP — Studio Audiovisuel & Communication Visuelle
+<p align="center">
+  <img src="images/mascotte.png" alt="Mascotte 3D LES'ART GROUP" width="280" style="max-width: 100%; height: auto;">
+</p>
 
-> **On raconte votre histoire.**  
-> Studio de création visuelle, réalisation cinématographique, photographie d'art, direction artistique et couverture événementielle basé à **Dakar, Sénégal**, fondé par **Faye Ibrahima Diagne**.
+<h1 align="center">LES'ART GROUP — Studio Audiovisuel & Communication Visuelle</h1>
+
+<p align="center">
+  <b>On raconte votre histoire.</b><br>
+  Studio de création visuelle, réalisation cinématographique, photographie d'art, direction artistique et couverture événementielle basé à <b>Dakar, Sénégal</b>, fondé par <b>Faye Ibrahima Diagne</b>.
+</p>
 
 ---
+
 
 ## 🌟 Présentation du Projet
 
