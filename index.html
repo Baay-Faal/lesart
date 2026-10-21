@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LES'ART GROUP — Communication, Événementiel & Production Audiovisuelle | Dakar</title>
+  <meta name="description" content="LES'ART GROUP par Faye Ibrahima Diagne : Réalisation vidéo, photographie d'art, communication visuelle, couverture événementielle et sportive à Dakar, Sénégal.">
+  <meta name="keywords" content="Les'Art Group, Faye Ibrahima Diagne, Production vidéo Dakar, Photographe Sénégal, Graphisme, MMA Sénégal, Lutte sénégalaise, Événementiel Dakar">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="LES'ART GROUP — Communication & Production Audiovisuelle">
+  <meta property="og:description" content="On raconte votre histoire. Vidéo, Photographie, Direction Artistique & Événementiel.">
+  <meta property="og:image" content="images/hero-01.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+  <!-- Fonts Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ======================================================================
+       HEADER & NAVIGATION
+       ====================================================================== -->
+  <header id="siteHeader">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand-logo" aria-label="LES'ART GROUP Accueil">
+        <img src="images/logo.png" alt="LES'ART GROUP" class="brand-logo-img">
+        <div class="brand-details">
+          <span class="brand-name">LES'ART GROUP</span>
+          <span class="brand-sub">Création & Audiovisuel</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="nav-link active">Accueil</a>
+        <a href="realisations.html" class="nav-link">Réalisations</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="a-propos.html" class="nav-link">À Propos</a>
+        <a href="boutique.html" class="nav-link">Boutique</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-cta-wrap">
+        <a href="https://wa.me/221774654046?text=Bonjour%20LES'ART%20GROUP,%20je%20souhaite%20un%20devis%20pour%20un%20projet." target="_blank" rel="noopener" class="btn btn-gold btn-sm">
+          <span>Devis Rapide</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ======================================================================
+       HERO CARROUSEL
+       ====================================================================== -->
+  <section class="hero" id="accueil">
+    <div class="hero-slider">
+      <div class="hero-slide active" style="background-image:url('images/hero-01.jpg');"></div>
+      <div class="hero-slide" style="background-image:url('images/hero-02.jpg');"></div>
+      <div class="hero-slide" style="background-image:url('images/hero-03.jpg');"></div>
+      <div class="hero-slide" style="background-image:url('images/hero-04.jpg');"></div>
+      <div class="hero-slide" style="background-image:url('images/hero-05.jpg');"></div>
+    </div>
+
+    <div class="container hero-content">
+      <div class="hero-badge">Studio de Création Visuelle • Dakar</div>
+      <h1 class="hero-title">On raconte <span class="gold-text">votre</span> histoire.</h1>
+      <p class="hero-desc">
+        Communication percutante, réalisation audiovisuelle cinématographique, photographie d’art et stratégie de contenu taillée sur mesure.
+      </p>
+
+      <div class="hero-actions">
+        <a href="realisations.html" class="btn btn-gold">
+          <span>Explorer les Réalisations</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+        <a href="contact.html" class="btn btn-outline">
+          <span>Lancer un Projet</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Hero Navigation Controls -->
+    <div class="hero-controls">
+      <div class="container hero-controls-inner">
+        <div class="hero-arrows">
+          <button class="hero-arrow" id="heroPrev" aria-label="Slide précédente">‹</button>
+          <button class="hero-arrow" id="heroNext" aria-label="Slide suivante">›</button>
+        </div>
+
+        <div class="hero-pagination">
+          <div class="hero-dot active"></div>
+          <div class="hero-dot"></div>
+          <div class="hero-dot"></div>
+          <div class="hero-dot"></div>
+          <div class="hero-dot"></div>
+        </div>
+
+        <div class="hero-counter">
+          <span id="heroCurrentIndex">01</span> / 05
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       TICKER STRIP
+       ====================================================================== -->
+  <div class="ticker-strip">
+    <div class="ticker-track">
+      <div class="ticker-item"><b>Communication</b> Digitale <span class="ticker-dot"></span></div>
+      <div class="ticker-item"><b>Événementiel</b> & Show <span class="ticker-dot"></span></div>
+      <div class="ticker-item"><b>Production Vidéo</b> & Montage <span class="ticker-dot"></span></div>
+      <div class="ticker-item"><b>Photographie</b> Éditoriale <span class="ticker-dot"></span></div>
+      <div class="ticker-item"><b>Sport Addict</b> & Combat <span class="ticker-dot"></span></div>
+      <div class="ticker-item"><b>Direction Artistique</b> & IA <span class="ticker-dot"></span></div>
+      <div class="ticker-item"><b>Communication</b> Digitale <span class="ticker-dot"></span></div>
+      <div class="ticker-item"><b>Événementiel</b> & Show <span class="ticker-dot"></span></div>
+      <div class="ticker-item"><b>Production Vidéo</b> & Montage <span class="ticker-dot"></span></div>
+      <div class="ticker-item"><b>Photographie</b> Éditoriale <span class="ticker-dot"></span></div>
+      <div class="ticker-item"><b>Sport Addict</b> & Combat <span class="ticker-dot"></span></div>
+      <div class="ticker-item"><b>Direction Artistique</b> & IA <span class="ticker-dot"></span></div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       STATEMENT / MANIFESTO & STATS
+       ====================================================================== -->
+  <section class="statement-section">
+    <div class="container">
+      <div class="statement-grid">
+        <div>
+          <span class="tag-badge">Manifeste Créatif</span>
+          <h2 class="statement-heading" style="margin-top: 18px;">
+            Donnez une <span class="accent">dimension unique</span> à votre image.
+          </h2>
+        </div>
+        <div class="statement-text">
+          <p>
+            Chaque marque, chaque athlète et chaque événement possède une âme singulière. Nous combinons sensibilité artistique, maîtrise technique audiovisuelle et puissance narrative pour capturer des émotions pures et marquer durablement les esprits.
+          </p>
+          <div class="stats-grid">
+            <div class="stat-item">
+              <h3>+7</h3>
+              <p>Ans d'expérience</p>
+            </div>
+            <div class="stat-item">
+              <h3>100%</h3>
+              <p>Passion & Rigueur</p>
+            </div>
+            <div class="stat-item">
+              <h3>+150</h3>
+              <p>Projets Livrés</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       SÉLECTION DE RÉALISATIONS MAJEURES (Curated Highlights)
+       ====================================================================== -->
+  <section class="portfolio-section">
+    <div class="container">
+      <div class="section-head" style="display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:20px;">
+        <div>
+          <span class="tag-badge">Portfolio Highlights</span>
+          <h2>Sélection de Réalisations</h2>
+          <p class="section-desc">Un aperçu de nos projets les plus marquants en photo, vidéo et design.</p>
+        </div>
+        <a href="realisations.html" class="btn btn-outline">
+          <span>Voir toutes les 48 réalisations</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+      </div>
+
+      <div class="work-grid">
+        <!-- 1. Culture: Simba -->
+        <div class="work-card portrait" data-cat="photo" data-title="Simba — Danse traditionnelle du Faux Lion sénégalais">
+          <img src="images/photo-03.jpg" alt="Simba — Faux Lion Sénégal" loading="lazy">
+          <div class="work-card-overlay">
+            <span class="work-tag-label">Culture & Tradition</span>
+            <div class="work-title-label">Simba — Danse du Faux Lion</div>
+          </div>
+          <div class="work-card-icon"><svg class="icon-zoom-3d" viewBox="0 0 24 24" width="18" height="18" fill="none"><defs><linearGradient id="gZ" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FFE082"/><stop offset="100%" stop-color="#F5A623"/></linearGradient></defs><circle cx="10.5" cy="10.5" r="6.5" stroke="url(#gZ)" stroke-width="2.2"/><line x1="15.5" y1="15.5" x2="21" y2="21" stroke="url(#gZ)" stroke-width="2.5" stroke-linecap="round"/><circle cx="8.5" cy="8.5" r="1.5" fill="rgba(255,255,255,0.75)"/></svg></div>
+        </div>
+
+        <!-- 2. Sport Addict: MMA -->
+        <div class="work-card" data-cat="photo" data-title="Combat MMA — Face-à-face dans la cage">
+          <img src="images/photo-17.jpg" alt="Combat MMA" loading="lazy">
+          <div class="work-card-overlay">
+            <span class="work-tag-label">Sport Addict</span>
+            <div class="work-title-label">MMA — Face-à-Face dans la Cage</div>
+          </div>
+          <div class="work-card-icon"><svg class="icon-zoom-3d" viewBox="0 0 24 24" width="18" height="18" fill="none"><defs><linearGradient id="gZ" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FFE082"/><stop offset="100%" stop-color="#F5A623"/></linearGradient></defs><circle cx="10.5" cy="10.5" r="6.5" stroke="url(#gZ)" stroke-width="2.2"/><line x1="15.5" y1="15.5" x2="21" y2="21" stroke="url(#gZ)" stroke-width="2.5" stroke-linecap="round"/><circle cx="8.5" cy="8.5" r="1.5" fill="rgba(255,255,255,0.75)"/></svg></div>
+        </div>
+
+        <!-- 3. Sport: Lutte Sénégalaise -->
+        <div class="work-card" data-cat="photo" data-title="Lutte Sénégalaise Traditionnelle — Arènes de Dakar">
+          <img src="images/photo-23.jpg" alt="Lutte Sénégalaise" loading="lazy">
+          <div class="work-card-overlay">
+            <span class="work-tag-label">Lutte Traditionnelle</span>
+            <div class="work-title-label">Lutte Sénégalaise — Rituel & Force</div>
+          </div>
+          <div class="work-card-icon"><svg class="icon-zoom-3d" viewBox="0 0 24 24" width="18" height="18" fill="none"><defs><linearGradient id="gZ" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FFE082"/><stop offset="100%" stop-color="#F5A623"/></linearGradient></defs><circle cx="10.5" cy="10.5" r="6.5" stroke="url(#gZ)" stroke-width="2.2"/><line x1="15.5" y1="15.5" x2="21" y2="21" stroke="url(#gZ)" stroke-width="2.5" stroke-linecap="round"/><circle cx="8.5" cy="8.5" r="1.5" fill="rgba(255,255,255,0.75)"/></svg></div>
+        </div>
+
+        <!-- 4. Studio: Haute Couture -->
+        <div class="work-card portrait" data-cat="photo" data-title="Portrait Éditorial Haute Couture">
+          <img src="images/photo-01.jpg" alt="Portrait Studio Éditorial" loading="lazy">
+          <div class="work-card-overlay">
+            <span class="work-tag-label">Shooting Studio</span>
+            <div class="work-title-label">Portrait Éditorial Haute Couture</div>
+          </div>
+          <div class="work-card-icon"><svg class="icon-zoom-3d" viewBox="0 0 24 24" width="18" height="18" fill="none"><defs><linearGradient id="gZ" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FFE082"/><stop offset="100%" stop-color="#F5A623"/></linearGradient></defs><circle cx="10.5" cy="10.5" r="6.5" stroke="url(#gZ)" stroke-width="2.2"/><line x1="15.5" y1="15.5" x2="21" y2="21" stroke="url(#gZ)" stroke-width="2.5" stroke-linecap="round"/><circle cx="8.5" cy="8.5" r="1.5" fill="rgba(255,255,255,0.75)"/></svg></div>
+        </div>
+
+        <!-- 5. Mariage Prestige -->
+        <div class="work-card" data-cat="photo" data-title="Célébration de Mariage — Moment Émotion">
+          <img src="images/photo-04.jpg" alt="Mariage Prestige" loading="lazy">
+          <div class="work-card-overlay">
+            <span class="work-tag-label">Mariage Prestige</span>
+            <div class="work-title-label">Célébration & Émotion Pure</div>
+          </div>
+          <div class="work-card-icon"><svg class="icon-zoom-3d" viewBox="0 0 24 24" width="18" height="18" fill="none"><defs><linearGradient id="gZ" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FFE082"/><stop offset="100%" stop-color="#F5A623"/></linearGradient></defs><circle cx="10.5" cy="10.5" r="6.5" stroke="url(#gZ)" stroke-width="2.2"/><line x1="15.5" y1="15.5" x2="21" y2="21" stroke="url(#gZ)" stroke-width="2.5" stroke-linecap="round"/><circle cx="8.5" cy="8.5" r="1.5" fill="rgba(255,255,255,0.75)"/></svg></div>
+        </div>
+
+        <!-- 6. Production Vidéo -->
+        <div class="work-card" data-cat="video" data-embed="https://drive.google.com/file/d/1U8L6pXRL1BLYn131FZ5iwWqF-6Cdqx9I/preview" data-title="Extrait Vidéo Publicitaire & Clip">
+          <img src="images/video-thumb-01.jpg" alt="Extrait Vidéo 01" loading="lazy">
+          <div class="video-play-badge">
+            <svg viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+          </div>
+          <div class="work-card-overlay">
+            <span class="work-tag-label">Production Vidéo</span>
+            <div class="work-title-label">Spot Publicitaire & Réalisation</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 50px;">
+        <a href="realisations.html" class="btn btn-gold">
+          <span>Découvrir l'ensemble de la Galerie (48 œuvres)</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       APERÇU DES SERVICES
+       ====================================================================== -->
+  <section class="services-section">
+    <div class="container">
+      <div class="section-head center">
+        <span class="tag-badge">Expertises & Métiers</span>
+        <h2>Ce que nous réalisons pour vous</h2>
+        <p class="section-desc">
+          Une approche 360° alliant créativité sans limite et précision d'exécution pour sublimer votre marque.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-num">01</div>
+          <h3>Production Audiovisuelle</h3>
+          <p>
+            Spots publicitaires, aftermovies d'événements, capsules vidéo dynamiques pour réseaux sociaux, cadrage et montage avec colorimétrie professionnelle.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-num">02</div>
+          <h3>Photographie Professionnelle</h3>
+          <p>
+            Shootings studio et extérieur, portraits d'affaires, couverture complète de mariages et célébrations, reportages sportifs et culturels.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-num">03</div>
+          <h3>Direction Artistique & IA</h3>
+          <p>
+            Création d'identités visuelles mémorables, chartes graphiques, intégration des technologies génératives IA (Midjourney, Kling AI) pour des visuels d'avant-garde.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-num">04</div>
+          <h3>Print & Covering Flottes</h3>
+          <p>
+            Habillage graphique de véhicules professionnels, stands, roll-ups d'exposition, signalétique grand format et supports d'édition d'entreprise.
+          </p>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 40px;">
+        <a href="services.html" class="btn btn-outline">
+          <span>En savoir plus sur nos offres & méthodologie</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       TEASER DU FONDATEUR (Faye Ibrahima Diagne)
+       ====================================================================== -->
+  <section style="background: var(--bg-surface); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+    <div class="container">
+      <div class="about-grid" style="align-items:center;">
+        <div>
+          <span class="tag-badge">Le Créateur</span>
+          <h2 style="font-size: clamp(2rem, 4.5vw, 3.2rem); margin-top: 14px; color: var(--text-white);">Faye Ibrahima Diagne</h2>
+          <p style="color: var(--gold); font-size: 0.82rem; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 600; margin-top: 6px;">
+            Graphiste • Réalisateur • Photographe • Artiste IA
+          </p>
+          <p style="color: var(--text-secondary); margin-top: 18px; line-height: 1.7;">
+            De ses expériences sur les plateaux de <strong>2sTV</strong> et ses créations pour de grandes marques comme <strong>Eric Favre</strong> ou <strong>Intelligences Magazine</strong>, Faye apporte une vision artistique exigeante et cinématique à chacun de vos projets.
+          </p>
+          <div style="margin-top: 28px;">
+            <a href="a-propos.html" class="btn btn-gold">
+              <span>Découvrir son parcours complet</span>
+            </a>
+          </div>
+        </div>
+
+        <div style="display:flex; justify-content:center;">
+          <div style="width: 260px; height: 260px; border-radius: 50%; overflow: hidden; border: 3px solid var(--gold); box-shadow: 0 0 30px rgba(245, 166, 35, 0.3);">
+            <img src="images/hero-01.jpg" alt="Faye Ibrahima Diagne" style="width: 100%; height: 100%; object-fit: cover;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       APERÇU BOUTIQUE
+       ====================================================================== -->
+  <section class="shop-section">
+    <div class="container">
+      <div class="section-head center">
+        <span class="tag-badge">Boutique</span>
+        <h2>Matériel Audiovisuel Disponible</h2>
+        <p class="section-desc">Caméras et consoles certifiées avec retrait direct à Dakar.</p>
+      </div>
+
+      <div class="shop-grid">
+        <div class="shop-card">
+          <div class="shop-img-box">
+            <span class="shop-status-badge">En Stock</span>
+            <img src="images/photo-41.jpg" alt="DJI Osmo Pocket 3">
+          </div>
+          <div class="shop-details">
+            <h4 class="shop-title">DJI Osmo Pocket 3</h4>
+            <p class="shop-desc">Capteur 1 pouce, 4K 120fps, écran OLED rotatif et stabilisation 3 axes.</p>
+            <div class="shop-price-row">
+              <span class="shop-price">Prix sur demande</span>
+              <a href="https://wa.me/221774654046?text=Bonjour%20LES'ART%20GROUP,%20je%20suis%20int%C3%A9ress%C3%A9%20par%20le%20DJI%20Osmo%20Pocket%203" target="_blank" rel="noopener" class="btn btn-gold btn-sm">Commander</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="shop-card">
+          <div class="shop-img-box">
+            <span class="shop-status-badge">En Stock</span>
+            <img src="images/photo-42.jpg" alt="PlayStation 5">
+          </div>
+          <div class="shop-details">
+            <h4 class="shop-title">Sony PlayStation 5</h4>
+            <p class="shop-desc">Console nouvelle génération avec manette DualSense et disque SSD ultra-rapide.</p>
+            <div class="shop-price-row">
+              <span class="shop-price">Prix sur demande</span>
+              <a href="https://wa.me/221774654046?text=Bonjour%20LES'ART%20GROUP,%20je%20suis%20int%C3%A9ress%C3%A9%20par%20la%20PlayStation%205" target="_blank" rel="noopener" class="btn btn-gold btn-sm">Commander</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 40px;">
+        <a href="boutique.html" class="btn btn-outline">
+          <span>Visiter la boutique complète</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       CONTACT & APPEL À PROJET
+       ====================================================================== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-box">
+        <span class="tag-badge">Prendre Contact</span>
+        <h2 style="margin-top: 14px;">Parlons de votre prochain projet</h2>
+        <p>
+          Une idée de tournage, un événement à couvrir, un shooting ou une identité visuelle à construire ? Écrivez-nous directement pour une réponse rapide.
+        </p>
+
+        <div class="contact-channels">
+          <a href="https://wa.me/221774654046?text=Bonjour%20LES'ART%20GROUP,%20je%20souhaite%20collaborer%20sur%20un%20projet." target="_blank" rel="noopener" class="channel-card">
+            <svg viewBox="0 0 175.2 175.6" width="30" height="30" fill="none">
+              <defs>
+                <linearGradient id="waGreenCard" x1="85.9" x2="86.5" y1="32.5" y2="137.1" gradientUnits="userSpaceOnUse">
+                  <stop offset="0%" stop-color="#57D163"/>
+                  <stop offset="100%" stop-color="#23B33A"/>
+                </linearGradient>
+              </defs>
+              <path fill="#fff" d="m13 161.2 10.4-38.1a73.4 73.4 0 0 1-9.8-36.8c0-40.5 33-73.5 73.6-73.5 19.7 0 38.2 7.7 52 21.6 13.9 13.9 21.6 32.4 21.6 52s-33 73.6-73.6 73.6h0c-12.3 0-24.4-3.1-35.2-9z"/>
+              <path fill="url(#waGreenCard)" d="M87.2 25.2c-33.7 0-61.2 27.4-61.2 61.1 0 11.5 3.3 22.8 9.3 32.5l1.5 2.3-6.2 22.6 23.1-6.1 2.3 1.3c9.4 5.6 20.2 8.5 31.1 8.5h0c33.7 0 61.2-27.4 61.2-61.1 0-16.3-6.4-31.7-17.9-43.3-11.6-11.5-27-17.9-43.2-17.9z"/>
+              <path fill="#fff" fill-rule="evenodd" d="M68.8 55.6c-1.4-3-2.8-3.1-4.1-3.2l-3.5 0c-1.2 0-3.2.5-4.9 2.3-1.7 1.9-6.5 6.3-6.5 15.4s6.6 17.8 7.5 19 12.7 20.4 31.4 27.8c15.5 6.1 18.7 4.9 22.1 4.6 3.3-.3 10.8-4.4 12.4-8.7 1.5-4.3 1.5-8 1.1-8.7s-1.7-1.3-3.5-2.2c-1.9-.9-10.9-5.4-12.6-6s-2.9-.9-4.1.9c-1.2 1.9-4.8 6-5.8 7.2-1.1 1.2-2.2 1.4-4 .5-1.9-.9-7.8-2.9-14.8-9.1-5.5-4.9-9.2-10.9-10.2-12.8s-.1-2.8.8-3.7c.8-.8 1.9-2.2 2.8-3.2s1.2-1.9 1.8-3.1.3-2.3-.1-3.2-4-10-5.7-13.6z"/>
+            </svg>
+            <div class="channel-info">
+              <div class="channel-label">WhatsApp Direct</div>
+              <div class="channel-value">+221 77 465 40 46</div>
+            </div>
+          </a>
+
+          <a href="https://www.instagram.com/lesart_group" target="_blank" rel="noopener" class="channel-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+            <div class="channel-info">
+              <div class="channel-label">Instagram</div>
+              <div class="channel-value">@lesart_group</div>
+            </div>
+          </a>
+
+          <a href="mailto:contact@lesartgroup.com" class="channel-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <div class="channel-info">
+              <div class="channel-label">Email Professionnel</div>
+              <div class="channel-value">contact@lesartgroup.com</div>
+            </div>
+          </a>
+        </div>
+
+        <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
+          <a href="contact.html" class="btn btn-gold">
+            <span>Demander un Devis en Ligne</span>
+          </a>
+          <a href="https://wa.me/221774654046?text=Bonjour,%20je%20souhaite%20lancer%20un%20projet%20avec%20LES'ART%20GROUP." target="_blank" rel="noopener" class="btn btn-outline">
+            <span>Discuter sur WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       LIGHTBOX PLEIN ÉCRAN
+       ====================================================================== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Aperçu des médias">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Fermer la lightbox">&times;</button>
+    <button class="lightbox-nav-btn lightbox-prev" id="lightboxPrev" aria-label="Image précédente">‹</button>
+    <button class="lightbox-nav-btn lightbox-next" id="lightboxNext" aria-label="Image suivante">›</button>
+    
+    <div class="lightbox-content-box">
+      <div class="lightbox-media-wrap">
+        <iframe id="lightboxFrame" src="" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <img id="lightboxImg" src="" alt="">
+      </div>
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       BOUTON FLOTTANT WHATSAPP AVEC MASCOTTE 3D
+       ====================================================================== -->
+  <a href="https://wa.me/221774654046?text=Bonjour%20LES'ART%20GROUP,%20j'aimerais%20des%20informations%20sur%20vos%20services." target="_blank" rel="noopener" class="floating-whatsapp" aria-label="Discuter directement avec LES'ART GROUP sur WhatsApp">
+    <div class="wa-speech-bubble">
+      <span class="wa-speech-title">LES'ART Direct</span>
+      <span class="wa-speech-text">Un projet ? Écrivez-nous 💬</span>
+    </div>
+    <div class="floating-whatsapp-trigger">
+      <img src="images/mascotte-avatar.png" alt="Mascotte LES'ART GROUP" class="wa-avatar-img">
+      <span class="wa-online-dot" aria-hidden="true"></span>
+      <span class="wa-badge-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24">
+          <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.15c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.188 8.188 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.182 8.182 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.22 8.23zm4.51-6.17c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.35-.77-1.85c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05 0 1.21.88 2.38 1 2.55.12.17 1.74 2.65 4.21 3.72.59.25 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.18-.47-.3z"/>
+        </svg>
+      </span>
+    </div>
+  </a>
+
+  <!-- ======================================================================
+       FOOTER
+       ====================================================================== -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="brand-logo">
+          <img src="images/logo.png" alt="LES'ART GROUP" class="brand-logo-img">
+          <div class="brand-details">
+            <span class="brand-name">LES'ART GROUP</span>
+            <span class="brand-sub">Dakar, Sénégal</span>
+          </div>
+        </div>
+
+        <div style="display:flex; gap:24px; flex-wrap:wrap; font-size:0.8rem;">
+          <a href="index.html" style="color:var(--text-secondary);">Accueil</a>
+          <a href="realisations.html" style="color:var(--text-secondary);">Réalisations</a>
+          <a href="services.html" style="color:var(--text-secondary);">Services</a>
+          <a href="a-propos.html" style="color:var(--text-secondary);">À Propos</a>
+          <a href="boutique.html" style="color:var(--text-secondary);">Boutique</a>
+          <a href="contact.html" style="color:var(--text-secondary);">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 LES'ART GROUP — Faye Ibrahima Diagne. Tous droits réservés.</div>
+        <div>Direction Artistique & Production Audiovisuelle • Dakar, Sénégal</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
