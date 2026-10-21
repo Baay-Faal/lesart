@@ -1,0 +1,6 @@
+# robots.txt for LES'ART GROUP (https://lesartsgroup.com)
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://lesartsgroup.com/sitemap.xml
