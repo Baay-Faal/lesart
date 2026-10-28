@@ -34,7 +34,6 @@ Il met en valeur l'univers créatif du studio à travers des galeries dynamiques
   - Paramétrage de la date et du lieu (Dakar, Saly, Régions, International)
   - **Génération automatique en direct d'un message WhatsApp pré-rempli** pour échanger directement avec Faye Ibrahima Diagne.
 - **Formulaire de Contact Connecté** : Formulaire personnalisé avec budgets estimés en FCFA et transmission directe sur WhatsApp.
-- **Boutique Équipements Pro** : Vente d'équipements certifiés (DJI Osmo Pocket 3, PlayStation 5, éclairages et micros studio).
 - **Mascotte 3D & Bouton d'Assistance Flottant** : Bouton WhatsApp persistant avec avatar de la mascotte officielle et bulle de discussion.
 
 ---
@@ -49,7 +48,6 @@ lesart/
 ├── realisations.html        # Portfolio complet (Vidéo, Photo, Infographie)
 ├── services.html            # Services & Configurateur express de devis
 ├── a-propos.html            # Biographie & parcours de Faye Ibrahima Diagne
-├── boutique.html            # Boutique matériel audiovisuel & gaming
 ├── contact.html             # Formulaire de contact et coordonnées directes
 ├── css/
 │   └── style.css            # Feuille de styles complète et responsive
